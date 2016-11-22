@@ -38,6 +38,7 @@ Along with the CLI, [Ionic Cloud](http://ionic.io/) gives you the ability to per
 * Get application analytics
 * Get, review, and assess feedback from testers and users
 * Automatically [deploy new code](http://docs.ionic.io/services/deploy/) to users without need to reinstall from the App Store
+
 ###### Beyond Hybrid
 Because Ionic 2 is built using true HTML and CSS, you have the option of deploying it as a web application.  You can turn your Ionic 2 application into a standalone web UI, and even potentially turn it into a Progressive Web App using a `ServiceWorker` and `manifest.json` file.  Even if you don't plan to deploy it as a web application, you can still utilize the powerful capabilities of the `ServiceWorker` in the hybrid native experience by doing such things as precaching, sending native-like push notifications, or any of the many other things you can accomplish with the technology.
 
