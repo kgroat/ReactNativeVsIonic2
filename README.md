@@ -32,12 +32,12 @@ Being built on top of Angular 2, asyncronous functionality is handled using [Rea
 Ionic comes with a CLI built to ease the development and testing process.  By typing `ionic start --v2 MyApp`, it will generate an app called MyApp using an existing project from which to get started.  Once there, you can use `ionic generate page home` to create a page called home.  There are [many generators](https://ionicframework.com/docs/v2/cli/generate/) built into the CLI which allow you to grow your application easily.
 ###### Tooling
 Along with the CLI, [Ionic Cloud](http://ionic.io/) gives you the ability to perform many tasks very easily.  Among the things Ionic Cloud allows you to do are:
-* Build and sign your application for either iOS or Android with a single command
-* Create and maintain a user/permission tree with OAuth 2.0 support for Google, Facebook, and others
-* Send push notifications to devices
+* [Build and sign your application](http://docs.ionic.io/services/package/) for either iOS or Android with a single command
+* Create and maintain a user/permission tree with [OAuth 2.0 support for Google, Facebook, and others](http://docs.ionic.io/services/auth/#authentication-providers)
+* Send [push notifications](http://docs.ionic.io/services/push/) to devices
 * Get application analytics
 * Get, review, and assess feedback from testers and users
-* Automatically deploy new code to users without need to reinstall from the App Store
+* Automatically [deploy new code](http://docs.ionic.io/services/deploy/) to users without need to reinstall from the App Store
 
 
 
