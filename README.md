@@ -27,7 +27,7 @@ Ionic 2 comes with a fully-fleshed-out CSS library to give the styling users exp
 ### Additional Considerations
 ##### Ionic 2
 ###### Observables
-Being built on top of Angular 2, asyncronous functionality is handled using [Reactive Extensions](https://github.com/Reactive-Extensions/RxJS).  RxJs gives you the power of `Observables`, which allow their user to treat any data source as though it is a stream.  You can use functions such as `.map()` and `.reduce()` which act similarly to their `Array` counterparts to manipulate the data coming through the stream before you `.subscribe()`.
+Being built on top of Angular 2, asyncronous functionality is handled using [Reactive Extensions](https://github.com/Reactive-Extensions/RxJS).  RxJs gives you the power of `Observables`, which allow their user to treat any data source as though it is a stream.  You can use functions such as `.map()` and `.reduce()` which act similarly to their `Array` counterparts to manipulate the data coming through the stream before you `.subscribe()`.  Angular 2 makes Observables first-class citizens, handling subscriptions and display of asynchronous data.
 ###### CLI
 Ionic comes with a CLI built to ease the development and testing process.  By typing `ionic start --v2 MyApp`, it will generate an app called MyApp using an existing project from which to get started.  Once there, you can use `ionic generate page home` to create a page called home.  There are [many generators](https://ionicframework.com/docs/v2/cli/generate/) built into the CLI which allow you to grow your application easily.
 ###### Tooling
@@ -38,6 +38,8 @@ Along with the CLI, [Ionic Cloud](http://ionic.io/) gives you the ability to per
 * Get application analytics
 * Get, review, and assess feedback from testers and users
 * Automatically [deploy new code](http://docs.ionic.io/services/deploy/) to users without need to reinstall from the App Store
+###### Beyond Hybrid
+Because Ionic 2 is built using true HTML and CSS, you have the option of deploying it as a web application.  You can turn your Ionic 2 application into a standalone web UI, and even potentially turn it into a Progressive Web App using a `ServiceWorker` and `manifest.json` file.  Even if you don't plan to deploy it as a web application, you can still utilize the powerful capabilities of the `ServiceWorker` in the hybrid native experience by doing such things as precaching, sending native-like push notifications, or any of the many other things you can accomplish with the technology.
 
 
 
